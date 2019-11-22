@@ -19,6 +19,18 @@ export default {
     return {
       allData: [
         {
+          'title': '团队合作',
+          'titleicon': 'el-icon-s-data',
+          'data': [
+            {
+              'linkUrl': 'http://alloyteam.github.io/CodeGuide/',
+              'linkName': 'Code Guide',
+              'linkRemark': '通过分析github代码库总结出来的工程师代码书写习惯',
+              'linkIcon': require('../assets/img/lazyload.png')
+            }
+          ]
+        },
+        {
           'title': '前端框架',
           'titleicon': 'el-icon-s-data',
           'data': [
@@ -141,6 +153,12 @@ export default {
               'linkName': '绪锋',
               'linkRemark': '个人笔记博客',
               'linkIcon': 'http://sword.leegeing.cn/images/favicon.ico'
+            },
+            {
+              'linkUrl': 'http://zjxdd.top/',
+              'linkName': '再见小叮当',
+              'linkRemark': '大佬的技术博客',
+              'linkIcon': require('../assets/img/oywy-favicon.png')
             }
           ]
         }
